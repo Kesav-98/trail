@@ -1,0 +1,22 @@
+# Simple Python Script
+
+# Print a message
+print("Hello, World!")
+
+# Ask for user input
+name = input("Enter your name: ")
+
+# Print a personalized message
+print(f"Hello, {name}! Welcome to Python scripting.")
+
+# Loop through numbers 1 to 5
+for i in range(1, 6):
+    print(f"Counting: {i}")
+
+# Function to add two numbers
+def add_numbers(a, b):
+    return a + b
+
+# Example usage of the function
+num1, num2 = 5, 10
+print(f"Sum of {num1} and {num2} is: {add_numbers(num1, num2)}")
